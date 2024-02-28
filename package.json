@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "fronted",
   "private": true,
   "version": "0.0.0",
@@ -32,3 +33,23 @@
     "vite": "^5.1.4"
   }
 }
+=======
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "json-server --watch db.json --port 3000",
+    "build": "react-scripts build",
+    "client": "react-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
+>>>>>>> a7701617e71e434591908588fe17332b7c65d3fc
